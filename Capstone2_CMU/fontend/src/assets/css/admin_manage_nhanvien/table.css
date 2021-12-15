@@ -1,0 +1,254 @@
+.body {
+    display: flex;
+}
+
+/* header */
+.header_content {
+    width: 100%;
+    background-color: var(--color_white);
+}
+
+.header_content {
+    display: flex;
+}
+
+.header_content .return__link,
+.header_content .home__link,
+.header_content span {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 11px;
+    list-style: none;
+    background-color: #fff;
+}
+
+.header_content .return__link,
+.header_content .home__link {
+    display: block;
+    position: relative;
+    list-style: none;
+    color: #63c2de;
+    cursor: pointer;
+    padding-left: 0;
+    text-decoration: none;
+}
+
+.header_content .return__link:hover,
+.header_content .home__link:hover {
+    color: #084c95;
+}
+
+.header_content .home__link::before {
+    position: absolute;
+    content: '/';
+    right: -3px;
+}
+
+/* content */
+.content {
+    background-color: var(--color_grey);
+    width: 100%;
+    min-height: 499px;
+}
+
+.handle__task {
+    justify-content: space-between;
+}
+
+.search__input .input {
+    display: block;
+    background-color: #fff;
+    padding: .375rem .75rem;
+    font-size: .875rem;
+    line-height: 1.5;
+    color: #3e515b;
+    background-clip: padding-box;
+    border: 1px solid #c2cfd6;
+    border-radius: 0;
+    outline: none;
+    margin-right: 20px;
+    width: 300px;
+    height: 35px;
+}
+
+.search__input,
+.content .handle__task {
+    display: flex;
+}
+
+.handle__task .add__btn p {
+    margin: 0 0 0 5px;
+}
+
+.handle__task .add__btn:focus {
+    outline: none !important;
+}
+
+
+/* table */
+.table__inner {
+    margin-bottom: 1.5rem;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid #c2cfd6;
+}
+
+
+.table__inner .header__table {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    display: flex;
+    background-color: #f0f3f5;
+    border-bottom: 1px solid #c2cfd6;
+}
+
+.header__table i {
+    display: block;
+    align-self: center;
+    margin-right: 5px;
+}
+
+/* table content */
+.table__content {
+    width: 100%;
+}
+
+/* btn edit  delete*/
+/* .table_edit {
+    text-align: center;
+}
+
+.table_edit .table_edit--pen,
+.table_delete .delete--btn {
+    outline: none;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.table_edit .table_edit--pen {
+    background-color: #3ea662;
+}
+
+.table_edit .table_edit--pen:hover {
+    background-color: #2f7447;
+}
+
+.table_delete .delete--btn {
+    background-color: red;
+}
+
+.table_delete .delete--btn:hover {
+    background-color: rgb(156, 28, 28);
+}
+ */
+/* excel */
+.add_excel {
+    text-decoration: none !important;
+    color: white;
+    padding-left: 12px;
+}
+
+.add_excel:hover {
+    color: white;
+}
+
+
+/* phan trang */
+.page-item {
+    cursor: pointer;
+}
+
+.page-link:focus {
+    box-shadow: none !important;
+}
+
+.table-bordered {
+    margin-bottom: 0px;
+}
+
+.table__handle {
+    display: flex;
+}
+
+.table__handle button {
+    max-width: 65px !important;
+}
+
+.table__handle button:first-child {
+    margin-right: 5px;
+}
+
+.table__handle button:focus {
+    border: 1px solid transparent !important;
+    outline: none !important;
+}
+
+.css-1fmm5ni-MuiButtonBase-root-MuiButton-root,
+.css-ymeuow-MuiButtonBase-root-MuiButton-root {
+    min-width: 0px !important;
+}
+
+.table__center{
+    text-align: center;
+}
+
+.table__end{
+    text-align: end;
+}
+
+.table_center--ht {
+    display: flex;
+    justify-content: center;
+    border: 0px !important;
+}
+
+/* hinhf thuc */
+.table_center--ht .table_hinhthuc{
+    outline: none;
+    width: 56px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.table_hinhthuc.onl {
+    border: 1px solid #0e9703;
+    background: #0e9703;
+    
+}
+
+.table_hinhthuc.off {
+    border: 1px solid #005fff;
+    background: #005fff;
+    
+}
+
+.width_small{
+    width: 10px;
+}
+
+/* table bill  client*/
+.table__Info--client{
+    background-color: white;
+    margin: 25px 0px 15px;
+}
+
+.product__bill:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #005fff;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.justify-content-center{
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+}

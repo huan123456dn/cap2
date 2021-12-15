@@ -1,0 +1,106 @@
+/* content homepage */
+.content-home {
+    min-height: 600px;
+    position: relative;
+
+}
+
+.content-home .home_product--title{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.home_product--item {
+    cursor: pointer;
+    outline: none !important;
+    border: 0px !important;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px var(--color_grey);
+}
+
+.home_product--item:hover {
+    box-shadow: 0 0 0 1px var(--color_blue);
+}
+
+.row_Cart_star {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart__btn {
+    border-radius: 50px !important;
+    min-width: 14px !important;
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.cart__btn:focus{
+    outline: none !important;
+}
+
+.home_product--item-star {
+    align-self: center;
+}
+
+.home_product--item-star,
+.home_product--price-list {
+    display: flex;
+}
+
+.home_product--item-star .rating {
+    color: #faad00;
+}
+
+.home_product--item-star i,
+.home_product--item .home_product--item-img,
+.home_product--item .home_product--item-title,
+.home_product--price-list .home_product--price-item {
+    display: block;
+}
+
+.home_product--item .home_product--item-img {
+    width: 100%;
+}
+
+.home_product--item .home_product--item-title {
+    max-height: 51px;
+    min-height: 39px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-align: center;
+}
+
+.home_product--price-list .home_product--price-item {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.home_product--price-list .home_product--txt-price {
+    font-weight: 700;
+    color: var(--color_blue_D);
+}
+
+.home_product--price-list .home_product--txt-typle {
+    color: #334155 !important;
+    font-size: 14px;
+}
+
+.product_link {
+    text-decoration: none !important;
+}
+
+.home__pagination{
+    display: flex !important;
+    padding-left: 0; 
+    list-style: none; 
+    border-radius: 0.25rem; 
+    position: relative;
+    bottom: 0px !important;
+    right: 0;
+    left: 0;
+    justify-content: center;
+}

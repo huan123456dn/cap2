@@ -1,0 +1,9 @@
+export const SHOW_ACCOUNT ='SHOW_ACCOUNT';
+export const SHOW_ACCOUNT_SUCCESS ='SHOW_ACCOUNT_SUCCESS';
+export const SHOW_ACCOUNT_FAIL ='SHOW_ACCOUNT_FAIL';
+
+export const ADD_ACCOUNT ='ADD_ACCOUNT';
+
+export const EDIT_ACCOUNT = 'EDIT_ACCOUNT';
+
+export const OPEN_FORM ='OPEN_FORM';

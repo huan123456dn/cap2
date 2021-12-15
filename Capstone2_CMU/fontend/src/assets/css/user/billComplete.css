@@ -1,0 +1,114 @@
+.form_title .form_title--price {
+    height: 23px !important;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.form_title--quantity {
+    color: #878080;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.form_title--HD {
+    height: 25px;
+}
+
+/* btn xóa */
+.xoa__HD {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.xoa__HD button {
+    outline: none;
+    padding: 3px 14px;
+    display: block;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: red;
+    cursor: pointer;
+    color: var(--color_white);
+}
+
+.xoa__HD button:active {
+    background-color: #7b0808;
+}
+
+/*  */
+.content-billcomplete {
+    background-color: var(--color_blue_10);
+}
+
+.content-billcomplete .inside__BP {
+    border-radius: 20px;
+    background-color: white;
+    /* min-height: 500px; */
+    padding: 30px;
+    margin: 20px 200px 40px;
+}
+
+.inside__BP .time__BP {
+    display: flex;
+    position: relative;
+    padding-left: 30px;
+}
+
+.time__BP p {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    height: 16px;
+    margin: 0;
+}
+
+.time__BP p:last-child {
+    margin-left: 13px;
+}
+
+.time__BP::before {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #c9b6b6;
+    width: 3%;
+    top: 10px;
+    left: 0px;
+}
+
+.time__BP::after {
+    content: '';
+    position: absolute;
+    border-bottom: 1px solid #c9b6b6;
+    width: 82%;
+    top: 10px;
+    right: 1px;
+}
+
+.wait__complete {
+    display: flex;
+    justify-content: end;
+    color: red;
+}
+
+.wait__complete i {
+    padding-right: 5px;
+}
+
+.wait__complete i,
+.wait__complete p {
+    display: block;
+    align-self: center;
+    margin: 0;
+}
+
+.form_price {
+    align-self: end;
+}
+
+.form_price .ticked {
+    color: green;
+}

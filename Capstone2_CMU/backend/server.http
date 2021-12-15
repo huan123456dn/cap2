@@ -1,0 +1,11 @@
+PUT   url HTTP/1.1 http://localhost:8080/admin/QuanLiTaiKhoan/:id
+
+{
+    "userName":"khactien",
+    "fullName":"Ngô khắc tiến" ,
+    "dateOfBirth":"2021-11-25",
+    "dateStart":"2021-11-17",
+    "email":"Khactien9d@email.com",
+    "phoneNumber":"0913123123",
+    "address":"13 NGuyễn văn linh .Tp Buôn Ma Thuột",
+}

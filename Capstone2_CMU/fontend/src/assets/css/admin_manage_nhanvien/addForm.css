@@ -1,0 +1,104 @@
+label+.MuiInput-formControl {
+    margin: 0px !important;
+}
+
+.ant-modal-title{
+    color: white !important;
+}
+
+.anticon-close{
+    color: white !important;
+}
+
+.mleft-5 {
+    margin-left: 5px;
+}
+.ant-modal{
+    top: 70px !important;
+}
+
+.ant-modal-header {
+    background: #089106;
+}
+
+.ant-modal-close:focus,
+.ant-modal-close:hover {
+    border: 0px 1px transparent !important;
+    outline: none;
+}
+
+/* form */
+
+.from__content {
+    padding: 0px 20px;
+}
+
+.from__content .from__content--line {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 8px;
+}
+
+.from__content--line .row1 { 
+    flex-grow: 5;
+}
+
+.from__content--line .row2 {
+    flex-grow: 0;
+    margin-left: 30px;
+}
+
+.row1 .input:focus {
+    border: 1px solid turquoise !important;
+}
+
+.handle__form input{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    line-height: 1.5;
+    font-size: .875rem;
+    height: 20px;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #c2cfd6;
+    color: #3e515b;
+}
+
+.handle__form .input__img{
+    height: 40px;
+}
+
+.handle__form div {
+    width: 100%;
+    font-size: .875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #151b1e;
+}
+
+/* end form */
+.select__typle {
+    border: 1px solid #c2cfd6;
+}
+
+.MuiSelect-select.MuiSelect-select {
+    border-bottom: 1px solid;
+    padding-left: 8px;
+}
+
+.form_submit {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+}
+
+.form_submit button {
+    display: block;
+    outline: none;
+}
+
+.form_submit button:first-child {
+    margin-right: 20px;
+}

@@ -1,0 +1,218 @@
+.width_100{
+    width: 100%;
+}
+/* product of tên page  */
+.product_page {
+    margin-bottom: 100px;
+}
+
+.content_benh--item1 {
+    font-size: 12px;
+    display: flex !important;
+}
+
+.content_benh--item1 span {
+    display: block;
+    margin-left: 10px;
+}
+
+.content_benh--item1 .content_benh--link {
+    text-decoration: none;
+    display: block;
+    position: relative;
+}
+
+.content_benh--link::after {
+    content: "/";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -7px;
+}
+
+.product_content {
+    display: flex !important;
+}
+
+.product_content .header_porduct--user {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 12px 0 13px 14px;
+    display: block;
+}
+
+
+
+.prduct_navbar>span {
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.product_content .product__buy {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar_search1,
+.navbar_search2 {
+    padding: 0 8px;
+    min-height: 28px;
+    padding: 0 8px;
+    display: flex;
+    width: 100%;
+    font-family: inherit;
+    background-color: var(--color_white);
+    background-clip: padding-box;
+    border: 1px solid var(--color_grey);
+    border-radius: 8px;
+}
+
+.navbar_search1--icon,
+.navbar_search2--icon {
+    align-self: center;
+    color: #718198;
+
+}
+
+.navbar_search1--icon .navbar_icon-search,
+.navbar_search2--icon .navbar_icon-search {
+    font-size: 16px;
+}
+
+.see__more{
+    color: #3c3cee;
+    cursor: pointer;
+}
+
+.see__more:hover{
+    text-decoration: underline;
+}
+
+.block{
+    cursor: pointer;
+}
+
+.block input_price-from,
+.navbar_search1 .navbar_search1--input,
+.navbar_search2 .navbar_search2--input {
+    font-size: 14px !important;
+    line-height: 20px !important;
+    border: none;
+    background: transparent;
+    overflow: visible;
+    outline: none;
+    width: 100%;
+}
+
+.checkbox_same {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.checkbox_same input {
+    height: 27px;
+    width: 17px
+}
+
+.checkbox_same span {
+    align-self: center;
+    margin-left: 10px;
+}
+
+.group_checkbox3 .group_checkbox3--button {
+    outline: none;
+    border: solid 1px var(--color_grey);
+    color: #3f5069;
+    padding: 0 16px;
+    height: 28px;
+    font-size: 14px;
+    line-height: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--color_white);
+}
+
+.group_checkbox3--button:hover {
+    background-color: var(--color_grey);
+}
+
+.group_checkbox3--button.active {
+    background-color: var(--color_blue);
+    color: var(--color_white);
+}
+
+/* product item */
+.product--item {
+    margin-bottom: 40px;
+    border-radius: 12px;
+    box-shadow: 0 0 0 1px var(--color_grey);
+}
+
+.product--item:hover {
+    box-shadow: 0 0 0 1px var(--color_blue);
+}
+
+.product--item-star,
+.product--price-list {
+    display: flex;
+}
+
+.product--item-star i,
+.product--item .product--item-img,
+.product--item .product--item-title,
+.product--price-list .product--price-item {
+    display: block;
+}
+
+.product--item .product--item-img {
+    width: 100%;
+}
+
+.product--item .product--item-title {
+    max-height: 44px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+
+.product--price-list .product--price-item {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.product--price-list .product--txt-price {
+    font-weight: 700;
+    color: var(--color_blue_D);
+}
+
+.product--price-list .product--txt-typle {
+    color: #334155 !important;
+    font-size: 14px;
+}
+
+.group_search--price .search_price--input4 {
+    display: flex;
+}
+
+.search_price--input4 input {
+    width: 100%;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid var(--color_grey);
+    font-size: 13px;
+}
+
+.group_search--price-button {
+    width: 100%;
+    border-radius: 10px;
+    outline: none !important;
+    background-color: var(--color_blue);
+    border: 1px solid var(--color_grey);
+}
+
+.group_search--price-button:hover {
+    background-color: royalblue;
+}

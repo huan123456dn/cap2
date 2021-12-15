@@ -1,0 +1,459 @@
+/* content */
+
+/*  header link */
+.content_mh--item1 {
+    font-size: 12px;
+    display: flex !important;
+}
+
+.content_mh--item1 span {
+    display: block;
+    margin-left: 10px;
+}
+
+.content_mh--item1 .content_mh--link {
+    text-decoration: none;
+    display: block;
+    position: relative;
+    margin-left: 10px;
+    padding: 0px;
+    cursor: pointer;
+    color: blue;
+}
+
+.content_mh--link::after {
+    content: "<" !important;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -10px;
+}
+
+/* content hoadon */
+.hd_content {
+    background-color: var(--color_blue_10);
+}
+
+.form_hd {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_hd--left,
+.form_hd--right {
+    height: 100%;
+    width: auto;
+    border-radius: 12px;
+}
+
+.form_hd--right {
+    top: 12px;
+    position: -webkit-sticky !important;
+    position: sticky ;
+    right: 0;
+    margin-bottom: 50px;
+    bottom: 0px;
+}
+
+.content_hoadon .inner_form {
+    background-color: var(--color_white);
+    width: 100%;
+    border-radius: 12px;
+}
+
+.content_hoadon .bt{
+    margin-bottom: 50px;
+}
+
+.inner_form .info_cart{
+    outline: none;
+    border: 0px;
+    width: 100%;
+    background: white;
+}
+
+/* form 1  */
+.inner_form .form_head {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 500;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid var(--color_grey);
+}
+
+.form_product {
+    display: flex;
+    border-bottom: 1px solid var(--color_grey);
+}
+
+.form_product .link__info-cart {
+    display: flex;
+    text-decoration: none;
+}
+
+.form_product .form_product--img {
+    width: 80px;
+    height: 80px;
+}
+
+.form_product--img {
+    display: block;
+    align-self: center;
+}
+
+.form_product--img img {
+    width: 80px !important;
+}
+
+.form_title span {
+    margin-bottom: 5px;
+    text-align: left;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-word;
+    font-size: 16px;
+    color: #072d94 !important;
+    font-weight: 500;
+    display: block;
+    max-width: 400px;
+}
+
+.form_title {
+    display: block;
+}
+
+.form_title .form_title--typle {
+    display: flex;
+    height: 28px;
+}
+
+.form_title--typle .don_vi {
+    font-size: 16px !important;
+    color: #52637a !important;
+    margin-right: 8px !important;
+    align-self: end;
+    margin-bottom: 0px;
+    align-self: baseline;
+}
+
+.form_title--typle .typle {
+    color: #072d94;
+    border: 1px solid #1d48ba;
+    height: 28px;
+    line-height: 26px;
+    padding: 0 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    margin-bottom: 0px;
+}
+
+/* btn tăng giảm */
+/* btn tăng giảm */
+.form_price .form_price--btn {
+    display: flex !important;
+    justify-content: flex-end;
+}
+.form_price--btn .form_price--title{
+    padding: 1px 9px ;
+    outline: none;
+    border-top: 1px solid var(--color_grey);
+    border-bottom: 1px solid var(--color_grey);
+}
+
+.form_price--btn .btn_reduce {
+    border-radius: 100px 0 0 100px;
+}
+
+.form_price--btn .btn_up {
+    background-color: #fff;
+    border-radius: 0 100px 100px 0;
+}
+
+.form_price--btn .btn_reduce,
+.form_price--btn .btn_up {
+    cursor: pointer;
+    box-sizing: border-box;
+    outline: none;
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--color_grey);
+}
+
+.form_price--btn .active{
+    background-color: var(--color_blue_10) !important;
+}
+
+.form_price--btn .btn_reduce:active{
+    background-color: var(--color_blue_10);
+} 
+
+.form_price--btn .btn_reduce {
+    max-width: 40px;
+    background-color: #fff;
+    border: 1px solid var(--color_grey);
+    font-weight: 500;
+    color: #334155;
+    text-align: center;
+    padding-left: 8px !important;
+    padding-right: 8px;
+    outline: none;
+}
+
+.form_price--value {
+    text-align: end;
+    margin-top: 8px;
+}
+
+.form_price--value span,
+.form_price--value p {
+    display: block;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    margin-left: 5px;
+}
+
+
+.form_price--value span {
+    display: inline-flex;
+    color: #334155 !important;
+    height: 30px;
+}
+
+/* btn xoa */
+.btn_xoa {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn_xoa button {
+    outline: none;
+    padding: 3px 14px;
+    display: block;
+    border: 1px solid var(--color_blue);
+    border-radius: 10px;
+    background-color: var(--color_blue);
+    cursor: pointer;
+    color: var(--color_white);
+}
+
+.btn_xoa button:hover {
+    background-color: rgb(2, 2, 173);
+}
+
+/* form_info */
+
+.form_info {
+    display: block;
+    border-bottom: 1px solid var(--color_grey);
+    padding-right: 220px !important;
+    padding-left: 20px !important;
+    width: 100%;
+    align-items: center !important;
+    padding-top: 24px;
+    padding-bottom: 10px
+}
+
+.form_info .form_info--gioitinh,
+.radio_hinh_thuc_nhan_hang {
+    display: inline-flex;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.info_radio {
+    margin-right: 20px;
+}
+
+.info_radio label,
+.radio_hinh_thuc_nhan_hang label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.info_radio input {
+    display: block;
+    margin-right: 10px;
+}
+
+.form_info--name--stt {
+    display: flex;
+}
+
+.form_info--gmail{
+    width: 496px;
+}
+
+.w-100{
+    width: 100%;
+}
+
+.form_info--gmail input,
+.form_info--name--stt input {
+    width: 100%;
+    outline: none;
+    border-color: #718198;
+    padding: 10px 21px;
+    border: 1px solid #d8e0e8;
+    border-radius: 12px;
+}
+
+.input_gmail input {
+    display: block;
+}
+
+.form_info span {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 600;
+    display: block;
+}
+
+
+.form_hinh_thuc_thanh_toan {
+    padding-right: 220px !important;
+    padding-left: 20px !important;
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.radio_hinh_thuc_nhan_hang input {
+    margin-right: 10px;
+}
+
+.radio_hinh_thuc_thanh_toan {
+    display: flex;
+    width: 100%;
+    font-size: 16px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.form_hinh_thuc_thanh_toan span {
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 600;
+    display: block;
+}
+
+.form_hinh_thuc_thanh_toan {
+    display: inline-block;
+}
+
+/* form 2 */
+.inner_form--right {
+    background-color: var(--color_white);
+    border-radius: 12px;
+}
+
+.inner_form--right .header_info--hoadon {
+    display: flex;
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 500;
+    width: 100%;
+    border-bottom: 1px solid var(--color_grey);
+}
+
+.info_hoadon--cart .shopping-cart {
+    display: block;
+    background-color: #072d94;
+    padding: 7px;
+    color: var(--color_white);
+    border-radius: 50%;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.header_info--hoadon span {
+    display: block;
+    color: #072d94;
+}
+
+.cart--total {
+    border-bottom: 1px solid #d8e0e8;
+    height: 130px;
+}
+
+.cart--total--alike {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart--total--alike span {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    color: #334155;
+}
+
+.cart--total--alike .right_1 {
+    display: inline-flex;
+}
+
+.phigiaohangdukien--right p {
+    display: flex;
+}
+
+.cart--total--alike .canthanhtoan--left {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.cart--total--alike .canthanhtoan--right {
+    font-size: 20px !important;
+    line-height: 28px !important;
+    font-weight: 600;
+    color: #072d94;
+}
+
+.btn__hd--buy {
+    display: inline-grid;
+    width: 100% ;
+    cursor: pointer;
+}
+
+.btn__hd--buy button {
+    display: block;
+    outline: none;
+    padding: 6px 50px;
+    /* background-color: var(--color_blue);
+    border: 1px solid var(--color_blue); */
+    border-radius: 50px;
+    color: var(--color_white);
+}
+
+.btn__hd--buy button a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn__hd--buy button:hover {
+    background-color: rgb(2, 2, 173);
+}
+
+.link_complete{
+    text-decoration: none !important;
+}
+
+.MuiInput-underline{
+    border-bottom : 0px !important;
+}
+
+.MuiInput-underline:before{
+    border-bottom : 0px !important;
+}
+
+.MuiInput-underline:after{
+    border-bottom : 0px !important;
+}

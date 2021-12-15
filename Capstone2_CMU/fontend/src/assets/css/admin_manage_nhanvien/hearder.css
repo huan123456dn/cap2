@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header--info */
+.header {
+    width: 100%;
+    height: 65px;
+    z-index: 99;
+}
+
+.header--content {
+    background-color: var(--color_blue_50);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.header_navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_navbar-list {
+    list-style: none;
+    display: flex;
+}
+
+/* header--info-logo */
+.header_navbar-list .title {
+    align-self: flex-end;
+    margin: 0 0 0 -5px;
+}
+
+
+.header_navbar-list .header_hour,
+.header_navbar-list .header-info_left {
+    display: flex;
+}
+
+/* set material ul */
+.header-info_left #basic-button{  
+    display: flex !important;
+}
+
+.header_hour {
+    border: 1px solid var(--color_grey);
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.header_hour i {
+    font-size: 15px;
+    align-self: center;
+}
+
+.header_hour p {
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.header_navbar-item {
+    align-self: center;
+    position: relative;
+}
+
+.header_navbar-item,
+.header_navbar-item button,
+.header_navbar-item p,
+.header-info_left i,
+.header-info_left .title_name {
+    display: block;
+}
+
+.header_navbar-item .heart {
+    color: red;
+    font-size: 36px;
+}
+
+.header_navbar-item .name_web {
+    font-size: 13px;
+    font-weight: 600;
+    color: white;
+}
+
+.btn_narbar .icon_menu {
+    padding: 5px 14px;
+    color: var(--color_white);
+    font-size: 26px;
+    margin: 0 13px;
+    outline: none;
+    border: 0px;
+    background: none;
+    cursor: pointer;
+    display: block;
+    width: 53px;
+}
+
+
+/* header left */
+.header-info_left {
+    display: flex;
+    align-self: center;
+}
+
+.header-info_left .fa-user{
+    font-size: 20px;
+    background-color: var(--color_blue);
+    margin-right: 10px;
+    padding: 7px;
+    border-radius: 50%;
+    align-self: baseline;
+    color: white;
+}
+
+.header-info_left .title_name {
+    margin: 0 10px;
+    align-self: center;
+    font-size: 18px;
+    color: white;
+}
+
+.header-info_left .fa-sort-down {
+    font-size: 20px;
+    cursor: pointer;
+}
